@@ -1,0 +1,77 @@
+
+.board  
+{
+    display: table;         
+	width: 33vw;         
+	height: 33vw;   
+	margin: auto;
+}
+
+.board .rowDiv 
+{
+	display: table-row;
+	height: 33%;
+}
+
+.board .square 
+{
+	float: left; /* fix for  buggy browsers */
+	display: table-column;         
+	width: 32.6%;
+	height: 100%;
+}
+
+.gamePiece
+{
+  text-align: center;
+  padding-top: 25%;
+  font-size: 500%;
+  font-family: sans-serif;
+}
+.board .emptySquare
+{
+	height:100%;
+    width: 100%;
+}
+
+.endGameBox
+{
+	width: 25%;         
+	height: 5vw;   
+	margin: auto;
+	background-color: lightgrey;
+	border: thin solid black;
+	position: absolute;
+	left: 37.5%;
+	top: 15%;
+	padding-bottom: 10%;
+	padding-top: 10%;
+}
+
+.endGameMessage
+{
+	text-align: center;
+	font-size: 100%;
+	padding-bottom: 15%;
+	font-family: sans-serif;
+}
+
+.newGameBox
+{
+	text-align: center;
+    font-family: sans-serif;
+	background-color: white;
+    width: 40%;
+    margin: auto;
+    border: thin solid gray;
+    padding: 5%;
+    font-size: 100%;
+    color: #0000FF;
+	padding-bottom: 5%;
+}
+
+.newGameBox:active
+{
+	background-color: LightSlateGrey;
+	color: white;
+}
